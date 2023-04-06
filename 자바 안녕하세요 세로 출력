@@ -1,0 +1,10 @@
+package ljs;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("안\n녕\n하\n세\n요");
+
+	}
+
+}
