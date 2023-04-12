@@ -1,0 +1,48 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOa8/4vdxYs84tvzcbCjjUy",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Ljs0201/wnstj/blob/main/%EC%9E%85%EB%A0%A5%ED%95%9C%20%EB%B6%84%EC%8B%9D%EC%A7%91%20%EB%A9%94%EB%89%B4%20%EB%B3%B4%EC%97%AC%EC%A3%BC%EA%B8%B0\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "UaUoIn2w6MUC"
+      },
+      "outputs": [],
+      "source": [
+        "a = (input('음식 입력:  '))\n",
+        "\n",
+        "if a == '김밥' :\n",
+        "  print('야채김밥(2500원), 참치김밥(3500원)')\n",
+        "elif a == '라면' :\n",
+        "  print('기본라면(3500원)떡라면(4000원),만두라면(4000원)')\n",
+        "else:\n",
+        "  print('올바른 메뉴를 입력해주세요')"
+      ]
+    }
+  ]
+}
