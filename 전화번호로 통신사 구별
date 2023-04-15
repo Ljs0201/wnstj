@@ -1,0 +1,51 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMD5NSCJzLMLLsqDTD0JOjs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Ljs0201/wnstj/blob/main/%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%EB%A1%9C%20%ED%86%B5%EC%8B%A0%EC%82%AC%20%EA%B5%AC%EB%B3%84\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "WheC-Bv2Yvze"
+      },
+      "outputs": [],
+      "source": [
+        "a = input(\"휴대전화 번호 입력: \")\n",
+        "b = a.split(\"-\")[0]\n",
+        "if b == \"011\":\n",
+        "    ljs = \"SKT\"\n",
+        "elif b == \"016\":\n",
+        "    ljs = \"KT\"\n",
+        "elif b == \"019\":\n",
+        "    ljs = \"LGU\"\n",
+        "else:\n",
+        "    ljs = \"알수없음\"\n",
+        "print(f\"당신은 {ljs} 사용자입니다.\")"
+      ]
+    }
+  ]
+}
