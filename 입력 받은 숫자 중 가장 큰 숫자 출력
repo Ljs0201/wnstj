@@ -1,0 +1,53 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNnFW9vvfJ5WCUAcIWdjA4Q",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Ljs0201/wnstj/blob/main/%EC%9E%85%EB%A0%A5%20%EB%B0%9B%EC%9D%80%20%EC%88%AB%EC%9E%90%20%EC%A4%91%20%EA%B0%80%EC%9E%A5%20%ED%81%B0%20%EC%88%AB%EC%9E%90%20%EC%B6%9C%EB%A0%A5\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "O4KcALYHYsiK"
+      },
+      "outputs": [],
+      "source": [
+        "a = input(\"input number1:\")\n",
+        "b = input(\"input number2:\")\n",
+        "c = input(\"input number3:\")\n",
+        "a = int(a)\n",
+        "b = int(b)\n",
+        "c = int(c)\n",
+        "\n",
+        "if a >= b and a >=c:\n",
+        "  print(a)\n",
+        "elif b >=a and b >= c:\n",
+        "  print(b)\n",
+        "else:\n",
+        "  print(c)"
+      ]
+    }
+  ]
+}
